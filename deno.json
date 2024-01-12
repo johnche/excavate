@@ -1,0 +1,17 @@
+{
+	"tasks": {
+		"dev": "deno run -A src/main.ts",
+		"dev:watch": "deno run --watch -A src/main.ts",
+		"test": "deno test -A --parallel",
+		"test:watch": "deno test -A --watch --parallel"
+	},
+	"imports": {
+		"#src/": "./src/"
+	},
+	"fmt": {
+		"useTabs": true,
+		"indentWidth": 4,
+		"semiColons": true,
+		"singleQuote": true
+	}
+}
